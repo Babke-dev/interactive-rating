@@ -12,6 +12,7 @@ body {
 }
 
 #container {
+  border: 1px solid #171e28;
   width: 90%;
   max-width: 400px;
   border-radius: 15px;
