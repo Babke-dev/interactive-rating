@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  border: 1px solid wheat;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+  height: 400px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#222934, #171e28);
+}
+
+.logo-div {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#logo-svg {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.text-div {
+  margin-left: 20px;
+  color: #f4f7f8;
+}
+h1 {
+  margin-top: 10px;
+  font-weight: 400;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 0px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 170px;
+}
+#submit {
+  color: #feeecf;
+  background-color: rgb(252, 118, 20);
+  width: 90%;
+  padding: 0px 20px;
+  border-radius: 20px;
+  height: 45px;
+}
+.rate-div {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 20px 20px;
+  height: 45px;
+}
+
+.rating {
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+}
+
+.rating:hover {
+  background-color: #7c8898;
+  color: white;
+}
+
+#submit:hover {
+  background-color: #f4f7f8;
+  color: rgb(252, 118, 20);
+}
+
+#cont-thanks {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 15px;
+  height: 400px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#222934, #171e28);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+}
+.card h1 {
+  color: white;
+  font-weight: 400;
+}
+
+.card-container {
+  text-align: center;
+  margin: 0px 20px 20px 20px;
+}
+
+.card img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 25px;
+}
+
+h4 {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 25px;
+  display: inline-block;
+  color: rgb(252, 118, 20);
+  font-weight: normal;
+  padding: 10px 10px;
+}
+
+.card-container p {
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  #cont-thanks {
+    width: 400px;
+  }
+  #container {
+    width: 400px;
+  }
+}
